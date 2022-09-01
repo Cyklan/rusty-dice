@@ -1,17 +1,13 @@
 use core::panic;
-
 use regex::{Error, Regex};
 
 #[allow(dead_code)]
-#[derive(Debug)]
 struct Dice {
     sides: i32,
     count: i32,
     is_dice: bool,
 }
 
-#[allow(dead_code)]
-#[derive(Debug)]
 enum QueryOperator {
     Add,
     Subtract,
