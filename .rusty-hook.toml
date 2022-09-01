@@ -1,5 +1,5 @@
 [hooks]
-pre-commit = "cargo test && cargo clippy --fix -- -W clippy::pedantic -W clippy::nursery -W clippy::unwrap_used -W clippy::expect_used"
+pre-commit = "cargo test && cargo clippy -- -W clippy::pedantic -W clippy::nursery -W clippy::unwrap_used -W clippy::expect_used -D warnings"
 
 [logging]
 verbose = true
